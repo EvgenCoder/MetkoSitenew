@@ -18463,6 +18463,9 @@ h3.cart-page-title {
   padding: 10px 12px 11px;
   display: inline-block;
   text-transform: capitalize;
+  margin-left: 34px;
+  margin-right: 21px;
+  width: 152px;
 }
 
 .cart-table-content table tbody > tr td.product-wishlist-cart > a:hover {
