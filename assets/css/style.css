@@ -81,8 +81,14 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
+::-webkit-scrollbar {
+
+  width: 0px;
+  
+}
+
 p {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 400;
   line-height: 24px;
   color: #666;
@@ -1959,11 +1965,15 @@ textarea:focus {
 }
 
 .bg-white {
-  background-color: #ffffff;
+  background-color: #fff;
+}
+
+.bg-poly{
+  background: #f0f0f0 url(../images/bg/poly.png) repeat center top;
 }
 
 .bg-black {
-  background-color: #e5e5e5;
+  background-color: #000;
 }
 
 .bg-blue {
@@ -2205,24 +2215,24 @@ textarea:focus {
 .box-layout-width {
   display: block;
   margin: 0px auto;
-  width: 1310px;
+  width: 100vw;
 }
 
 @media only screen and (min-width: 1366px) and (max-width: 1600px) {
   .box-layout-width {
-    width: 1200px;
+    width: 100vw;
   }
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1365px) {
   .box-layout-width {
-    width: 1170px;
+    width: 100vw;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .box-layout-width {
-    width: 970px;
+    width: 100vw;
   }
 }
 
@@ -2240,7 +2250,7 @@ textarea:focus {
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .box-layout-width {
-    width: 550px;
+    width: 100vw;
   }
 }
 
@@ -3248,7 +3258,7 @@ textarea:focus {
 }
 
 .header-top-ptb-3 {
-  padding: 7px 0 7px;
+  padding: 2px 0 2px;
 }
 
 .header-top-ptb-6 {
@@ -4930,7 +4940,7 @@ textarea:focus {
 }
 
 .header-offer-wrap-4 p {
-  color: #000000;
+  color: #fff;
 }
 
 .header-offer-wrap-4 p span.uppercase {
@@ -4939,16 +4949,16 @@ textarea:focus {
 }
 
 .header-offer-wrap-4 p span.amount {
-  color: #000;
+  color: #fff;
   font-weight: 600;
 }
 
 .header-offer-wrap-4 p a {
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 11px;
   letter-spacing: .5px;
   text-decoration: underline;
-  color: #000;
+  color: #fff;
   font-weight: 400;
   margin: 0 0 0 12px;
   display: inline-block;
